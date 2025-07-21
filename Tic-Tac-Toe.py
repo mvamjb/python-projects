@@ -32,9 +32,7 @@ def is_draw():
 
 
 printing()
-count = 0
 while True:
-    count += 1 
     player1 = check(1,"X")
     change(player1,"X")
     if ((game[0][0] == "X" and game[0][1] == "X" and game[0][2] == "X" ) or (game[1][0] == "X" and game[1][1] == "X" and game[1][2] == "X") or (game[2][0] == "X" and game[2][1] == "X" and game[2][2] == "X" )) or ((game[0][0] == "X" and game[1][0] == "X" and game[2][0] == "X") or (game[0][1] == "X" and game[1][1] == "X" and game[2][1] == "X") or (game[0][2] == "X" and game[1][2] == "X" and game[2][2] == "X")) or ((game[0][0] == "X" and game[1][1] == "X" and game[2][2] == "X") or (game[0][2] == "X" and game[1][1] == "X" and game[2][0] == "X")) :
