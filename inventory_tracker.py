@@ -1,8 +1,8 @@
 products = {"5001":{"name":'Mouse',"quantity":50}}
 
 def restock():
+    id = input("Enter product id to restock: ").strip()
     while True:
-        id = input("Enter product id to restock: ").strip()
         try:
             quantity = int(input("Enter quantity to add: "))
             break
